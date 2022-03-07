@@ -11,13 +11,12 @@ namespace TicTacGame
         public static void Board()
         {
             char[] board = new char[10];
-            for (int i = 0;board.Length > 0; i++)
+            for (int i = 1;i<10; i++)
             {
                 Console.WriteLine(board[i]=' ');
             }
             Console.ReadLine();
         }
         
-          
     }
 }
