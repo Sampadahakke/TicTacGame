@@ -17,6 +17,17 @@ namespace TicTacGame
             }
             Console.ReadLine();
         }
-        
+
+        public static void GetInput()
+        {
+            Console.WriteLine("Player 1 is playing with X char and player 2 is playing with O char");
+            Console.WriteLine("Player 1");
+            Console.Write("Please enter the input= ");
+            char input1 = char.Parse(Console.ReadLine());
+            Console.WriteLine("Player 2");
+            Console.Write("Please enter the input= ");
+            char input2 = char.Parse(Console.ReadLine());   
+        }
+
     }
 }
